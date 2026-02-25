@@ -37,16 +37,9 @@ Experience
 *   Collaborated on the development of **Bevy Metafields**, **Bevy Monitor**, and **Bevy Processor**.
 *   Worked on various **WordPress plugins**, **Shopify Apps**, and **web applications**.
 
-### PHP Developer (Remote)
-
-**IT Grow Division Ltd** – Dhaka, Bangladesh (07/2021 – 04/2022)
-
-*   Worked on a **Trading project** with over 7,000,000 users and $10.0M - $15.0M annual revenue.
-*   Developed multiple responsive landing pages using **HTML**, **CSS**, **Bootstrap**, **JavaScript**, and **jQuery**.
-
 ### PHP Developer
 
-**Zoo Travel Technology** – Dhaka, Bangladesh (09/2020 – 06/2021)
+**Zoo Travel Technology** – Dhaka, Bangladesh (09/2020 – 04/2022)
 
 *   Contributed to a travel agency web application. Integrated flight APIs like **Sabre** and **Amadeus**.
 
