@@ -47,7 +47,7 @@ export default function Projects() {
       </nav>
 
       <div className="@container relative flex min-h-0 flex-1 flex-col">
-        <div className="scroll grid min-h-0 flex-1 grid-cols-1 content-start gap-3 overflow-auto p-4 pb-28 @md:grid-cols-2 @3xl:grid-cols-3">
+        <div className={`scroll grid min-h-0 flex-1 auto-rows-max grid-cols-1 content-start gap-3 overflow-auto p-4 @md:grid-cols-2 @3xl:grid-cols-3 ${active ? "pb-36" : "pb-4"}`}>
           {list.map((p) => (
             <Card key={p.slug} p={p} active={sel === p.slug} onClick={() => setSel(sel === p.slug ? null : p.slug)} />
           ))}
@@ -62,10 +62,9 @@ function Card({ p, active, onClick }: { p: Project; active: boolean; onClick: ()
   const lang = usePrefs((s) => s.lang);
   return (
     <motion.button
-      layout
       whileHover={{ y: -3 }}
       onClick={onClick}
-      className={`glass-soft group flex flex-col overflow-hidden rounded-2xl text-left transition-shadow hover:shadow-xl ${
+      className={`glass-soft group flex h-full flex-col overflow-hidden rounded-2xl text-left transition-shadow hover:shadow-xl ${
         active ? "ring-2 ring-accent" : ""
       }`}
     >
@@ -75,6 +74,11 @@ function Card({ p, active, onClick }: { p: Project; active: boolean; onClick: ()
           {t(p.category, lang)}
         </span>
         {p.featured && <span className="absolute right-3 top-2 text-sm text-white">★</span>}
+        {p.stores && (
+          <span className="absolute bottom-2 right-3 rounded-full bg-white/90 px-2 py-0.5 text-[10px] font-semibold text-zinc-800">
+            {p.stores.map((s) => s.name).join(" · ")}
+          </span>
+        )}
       </div>
       <div className="flex flex-1 flex-col p-3.5">
         <div className="flex items-baseline justify-between gap-2">
@@ -108,7 +112,7 @@ function Details({ p, onClose }: { p: Project; onClose: () => void }) {
         <p className="font-semibold tracking-tight">{p.name}</p>
         <p className="text-xs text-dim">{p.desc[lang]}</p>
       </div>
-      <div className="flex shrink-0 gap-2">
+      <div className="flex shrink-0 flex-wrap items-center gap-2">
         {p.repo && (
           <a href={p.repo} target="_blank" rel="noreferrer" className="rounded-full px-3.5 py-1.5 text-xs font-medium ring-1 ring-stroke-strong hover:bg-glass-hover">
             {t("source", lang)} ↗
@@ -119,6 +123,11 @@ function Details({ p, onClose }: { p: Project; onClose: () => void }) {
             {t("live", lang)} ↗
           </a>
         )}
+        {p.stores?.map((s) => (
+          <a key={s.name} href={s.url} target="_blank" rel="noreferrer" className="bg-gradient rounded-full px-3.5 py-1.5 text-xs font-medium text-white">
+            {s.name === "Chrome" ? "Chrome Web Store" : "Firefox Add-ons"} ↗
+          </a>
+        ))}
         <button onClick={onClose} aria-label="Close details" className="grid h-7 w-7 place-items-center rounded-full text-dim hover:bg-glass-hover">
           ×
         </button>

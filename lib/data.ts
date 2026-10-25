@@ -3,7 +3,6 @@ export type T = Record<Lang, string>;
 
 export const profile = {
   name: { en: "Arifur Rahman Arif", bn: "আরিফুর রহমান আরিফ" } as T,
-  handle: "ararif",
   role: { en: "Full-Stack Software Developer", bn: "ফুল-স্ট্যাক সফটওয়্যার ডেভেলপার" } as T,
   location: { en: "Sherpur, Bangladesh", bn: "শেরপুর, বাংলাদেশ" } as T,
   avatar: "https://avatars.githubusercontent.com/u/48169386?v=4",
@@ -25,7 +24,6 @@ export const contact = {
   whatsapp: "https://wa.me/8801976156715",
   github: "https://github.com/ararifdotme",
   linkedin: "https://www.linkedin.com/in/ararifdotme/",
-  website: "https://ararif.me",
 };
 
 export const certification = {
@@ -173,6 +171,7 @@ export type Project = {
   desc: T;
   repo?: string;
   live?: string;
+  stores?: { name: "Chrome" | "Firefox"; url: string }[];
   featured?: boolean;
   year: string;
 };
@@ -211,12 +210,16 @@ export const projects: Project[] = [
     slug: "keep-me-focus",
     name: "Keep Me Focus",
     category: "products",
-    stack: ["TypeScript", "WebExtension"],
+    stack: ["TypeScript", "WebExtension", "Chrome", "Firefox"],
     desc: {
       en: "A browser extension that blocks distracting sites, sets time limits and hides YouTube Shorts. Supports presets and regex rules.",
       bn: "বিরক্তিকর সাইট ব্লক, টাইম লিমিট সেট আর YouTube Shorts হাইড করার ব্রাউজার এক্সটেনশন। প্রিসেট আর regex রুল সাপোর্ট করে।",
     },
     repo: gh("keep-me-focus"),
+    stores: [
+      { name: "Chrome", url: "https://chromewebstore.google.com/detail/keep-me-focus/oaoilegeflbpmjmogdelkfpmacfhgbpg" },
+      { name: "Firefox", url: "https://addons.mozilla.org/addon/keep-me-focus/" },
+    ],
     featured: true,
     year: "2026",
   },

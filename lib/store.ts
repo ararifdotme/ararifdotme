@@ -9,15 +9,6 @@ export type Theme = "dark" | "light";
 
 export const APP_IDS: AppId[] = ["about", "projects", "experience", "skills", "contact", "terminal"];
 
-export const APP_FILES: Record<AppId, string> = {
-  about: "about.app",
-  projects: "projects/",
-  experience: "experience.log",
-  skills: "skills.sys",
-  contact: "contact.app",
-  terminal: "tty1",
-};
-
 type Rect = { x: number; y: number; w: number; h: number };
 
 export type WinState = Rect & {

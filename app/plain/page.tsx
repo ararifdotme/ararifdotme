@@ -70,6 +70,12 @@ export default function Plain() {
                 {p.live && <a href={p.live} className="text-accent">live</a>}
                 {p.live && p.repo && " · "}
                 {p.repo && <a href={p.repo} className="text-accent">source</a>}
+                {p.stores?.map((st) => (
+                  <span key={st.name}>
+                    {" · "}
+                    <a href={st.url} className="text-accent">{st.name}</a>
+                  </span>
+                ))}
               </li>
             ))}
           </ul>
