@@ -135,7 +135,7 @@ export const usePrefs = create<PrefStore>()(
   persist(
     (set) => ({
       lang: "en",
-      theme: "dark",
+      theme: "light",
       setLang: (lang) => set({ lang }),
       setTheme: (theme) => set({ theme }),
     }),

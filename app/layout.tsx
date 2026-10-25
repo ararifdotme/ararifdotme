@@ -23,14 +23,14 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#07070c",
+  themeColor: "#eef0f7",
   width: "device-width",
   initialScale: 1,
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" data-theme="dark" className={`${geist.variable} ${geistMono.variable} ${bn.variable}`}>
+    <html lang="en" data-theme="light" className={`${geist.variable} ${geistMono.variable} ${bn.variable}`}>
       <body>{children}</body>
     </html>
   );

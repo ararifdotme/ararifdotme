@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-/* ArifOS — glass design tokens. dark (default) + light */
+/* ArifOS — glass design tokens. light (default) + dark */
 :root,
 [data-theme="dark"] {
   --bg: #07070c;
