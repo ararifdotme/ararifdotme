@@ -1,102 +1,145 @@
-# ArifOS — Portfolio of Arifur Rahman Arif
+<div align="center">
 
-[বাংলায় পড়ুন](README.bn.md)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:22d3ee&height=200&section=header&text=Arifur%20Rahman%20Arif&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Software%20Developer&descSize=18&descAlignY=58" alt="Arifur Rahman Arif — Full-Stack Software Developer" width="100%" />
 
-A portfolio that behaves like a small operating system in the browser. It has a glass, visionOS-style
-desktop with draggable windows, a magnifying dock, live widgets and a working terminal, plus an
-iOS-style home screen on phones.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=620&lines=Laravel+Certified+Developer;7%2B+years+building+for+the+web;Shopify+%C2%B7+WordPress+%C2%B7+React+%C2%B7+Node.js;Open+to+freelance+%26+remote+roles" alt="Typing intro" />
 
-**Live:** [ararif.me](https://ararif.me)
+<p>
+  <a href="https://ararif.me"><img src="https://img.shields.io/badge/Portfolio-ararif.me-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/ararifdotme/"><img src="https://img.shields.io/badge/LinkedIn-ararifdotme-0a66c2?style=for-the-badge" alt="LinkedIn" /></a>
+  <a href="mailto:ararif724@gmail.com"><img src="https://img.shields.io/badge/Email-ararif724%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://wa.me/8801976156715"><img src="https://img.shields.io/badge/WhatsApp-%2B880%201976--156715-25d366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <a href="https://verifier.certificationforlaravel.org/cd0ce63e-b776-4704-8a3e-523081595d5a"><img src="https://img.shields.io/badge/Laravel-Certified%20Developer-ff2d20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel Certified Developer" /></a>
+</p>
 
-## Features
+</div>
 
-- **Desktop shell:** aurora wallpaper, a menu bar, desktop icons, a magnifying dock and glass widgets (clock, career uptime, current role, featured project).
-- **Windows:** draggable, resizable, minimize/maximize, focus stacking. Windows are 90% opaque and turn solid on hover so text stays readable.
-- **Apps:**
-  - About: profile, summary, Laravel certification.
-  - Projects: Finder-style folders and scrollable cards. Each project can link to source, live site and browser stores.
-  - Experience: career timeline and milestones.
-  - Skills: ring charts per group and a sortable skill list.
-  - Contact: email, WhatsApp, phone, LinkedIn, GitHub, and a quick-message form that opens your mail app or WhatsApp.
-  - Terminal: a Warp-style shell with commands, tab completion and history.
-- **Bilingual:** English / বাংলা toggle, including Bangla numerals.
-- **Themes:** dark and light. The choice is remembered in the browser.
-- **Mobile:** iOS-like home screen, and apps open as full-screen sheets.
-- **`/plain`:** a printable, SEO-friendly resume built from the same data.
-- **Accessibility:** `prefers-reduced-motion` skips the boot animation and stops the wallpaper motion.
+## 👋 About me
 
-### Terminal commands
+I build scalable, high-performance web applications, from Shopify apps used by 10,000+ merchants to
+flight-booking engines and IoT gadgets. Laravel Certified Developer with 7+ years shipping PHP, JavaScript,
+React and Node.js in production, mostly remote.
 
-`help`, `whoami`, `neofetch`, `ls [projects]`, `cat <file>`, `open <app>`, `projects`, `experience`,
-`skills`, `contact`, `lang en|bn`, `theme dark|light`, `resume`, `history`, `date`, `echo`, `clear`, `exit`.
-There are a few hidden ones too (try `sudo hire-me`).
+- 📍 Sherpur, Bangladesh · working remotely with teams in Canada
+- 💼 Currently **Back-End Developer at [Bevy Commerce](https://apps.shopify.com/aiva-labs)**
+- 🎓 [Laravel Certified Developer](https://verifier.certificationforlaravel.org/cd0ce63e-b776-4704-8a3e-523081595d5a) (2023)
+- ✅ Open to freelance & remote roles
 
-## Tech stack
+## 🛠️ Tech stack
 
-- [Next.js 16](https://nextjs.org) (App Router, Turbopack) + React 19 + TypeScript
-- [Tailwind CSS 4](https://tailwindcss.com)
-- [framer-motion](https://www.framer.com/motion/) for window, dock and sheet animations
-- [zustand](https://zustand.docs.pmnd.rs) for window state and persisted preferences
-- Fonts: Geist, Geist Mono, Hind Siliguri (Bangla), all loaded with `next/font`
+**Languages**<br />
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-## Getting started
+**Backend**<br />
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white)
 
-Requires Node.js 20+.
+**Frontend**<br />
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
 
-```bash
-npm install
-npm run dev
-```
+**Databases**<br />
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
-Then open http://localhost:3000.
+**Platforms & cloud**<br />
+![Shopify](https://img.shields.io/badge/Shopify_Apps-7AB55C?style=flat-square&logo=shopify&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
+![Linode](https://img.shields.io/badge/Linode-00A95C?style=flat-square)
 
-| Script          | What it does                     |
-| --------------- | -------------------------------- |
-| `npm run dev`   | Start the dev server             |
-| `npm run build` | Production build                 |
-| `npm start`     | Serve the production build       |
-| `npm run lint`  | Run ESLint                       |
+**Hardware & IoT**<br />
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+![ESP](https://img.shields.io/badge/ESP_WiFi-E7352C?style=flat-square&logo=espressif&logoColor=white)
 
-## Project structure
+**API integrations:** Sabre · Amadeus · Flyhub · Hotelbeds · Stripe · PayPal · BlueSnap · Coinbase · Twilio · Plivo · Telnyx
 
-```
-app/
-  layout.tsx          fonts, metadata, default theme
-  page.tsx            mounts the OS
-  plain/              printable resume (/plain)
-  globals.css         design tokens, glass surfaces, aurora wallpaper
-  icon.svg            favicon
-components/
-  os/                 shell: Boot, Desktop, Window, MenuBar, MobileShell, Aurora, Icons, registry
-  apps/               About, Projects, Experience, Skills, Contact, Terminal
-lib/
-  data.ts             all portfolio content (single source of truth)
-  i18n.ts             UI strings for English and Bangla
-  store.ts            window manager + language/theme preferences
-  terminal.tsx        terminal command registry
-  hooks.ts            useNow, useMediaQuery, useHydrated
-```
+## 💼 Experience
 
-## Editing content
+| Role | Company | Period |
+| --- | --- | --- |
+| **Back-End Developer** (remote) | Bevy Commerce Inc · Toronto, Canada | 05/2022 – present |
+| **PHP Developer** (part-time, remote) | Designful · Ottawa, Canada | 09/2022 – 06/2024 |
+| **PHP Developer** | Zoo Travel Technology · Dhaka, Bangladesh | 09/2020 – 04/2022 |
+| **PHP Developer** | The Royal Scientific Publication · Dhaka, Bangladesh | 03/2019 – 08/2020 |
 
-Almost everything you'd want to change lives in **`lib/data.ts`**:
+<details>
+<summary><b>Highlights</b></summary>
 
-- `profile`: name, role, summary, location, avatar, career start date
-- `contact`: email, phone, WhatsApp, GitHub, LinkedIn
-- `experience` and `milestones`: jobs, education, awards
-- `projects`: each project takes `repo`, `live` and `stores` (Chrome/Firefox) links, plus `featured` to show it in the Featured folder
-- `skills`: name, group, level (0–100) and the year you started
+**Bevy Commerce**
+- Core contributor to [Bevy Design](https://apps.shopify.com/aiva-labs), a Shopify app rated 4.7★ with 10,000+ users.
+- Built Bevy Metafields, Bevy Monitor and Bevy Processor; shipped WordPress plugins and Shopify apps.
 
-Text fields take both languages as `{ en: "...", bn: "..." }`. UI labels live in `lib/i18n.ts`.
+**Designful**
+- Developed the [Stylish Cost Calculator](https://stylishcostcalculator.com/) and [Stylish Price List](https://stylishpricelist.com/) WordPress plugins.
+- Built a custom SMS application on the Twilio API.
 
-To add a new app window, create a component in `components/apps/`, add its id to `AppId` and `APP_IDS` in
-`lib/store.ts`, register it in `components/os/registry.tsx`, and give it a tile color in `components/os/Icons.tsx`.
+**Zoo Travel Technology**
+- Built a travel-agency platform and integrated the Sabre and Amadeus flight APIs.
 
-## Deploy
+**The Royal Scientific Publication**
+- Built HRM software with fingerprint-sensor automatic attendance.
+- Built a distributed web app to detect counterfeit books, plus several web-scraping browser extensions.
 
-The site is fully static. Push to GitHub, import the repo on [Vercel](https://vercel.com) and add your
-domain. No environment variables are needed.
+</details>
 
-## License
+## 🚀 Featured projects
 
-© Arifur Rahman Arif. All rights reserved.
+| Project | What it is | Links |
+| --- | --- | --- |
+| **Mission Kamaria** | A Bengali 3D action game that runs in the browser. | [Play](https://mission-kamaria.ararif.me/) · [Code](https://github.com/ararifdotme/mission-kamaria) |
+| **Keep Me Focus** | Browser extension that blocks distracting sites, sets time limits and hides YouTube Shorts. | [Chrome](https://chromewebstore.google.com/detail/keep-me-focus/oaoilegeflbpmjmogdelkfpmacfhgbpg) · [Firefox](https://addons.mozilla.org/addon/keep-me-focus/) · [Code](https://github.com/ararifdotme/keep-me-focus) |
+| **Bevy Design** | Shopify page builder, 4.7★ from 10,000+ merchants (at Bevy Commerce). | [Shopify App Store](https://apps.shopify.com/aiva-labs) |
+| **Stylish Cost Calculator** | WordPress plugin for cost-estimate forms (at Designful). | [Website](https://stylishcostcalculator.com/) |
+| **Stylish Price List** | WordPress plugin for price lists and menus (at Designful). | [Website](https://stylishpricelist.com/) |
+| **electron-cnf** | Lightweight settings & config manager for Electron apps. | [Code](https://github.com/ararifdotme/electron-cnf) |
+| **phone-format-js** | Lightweight phone-number formatting package. | [Code](https://github.com/ararifdotme/phone-format-js) |
+| **typescript-starter-for-webextensions** | TypeScript starter template for browser extensions. | [Code](https://github.com/ararifdotme/typescript-starter-for-webextensions) |
+
+👉 See everything, interactively, at **[ararif.me](https://ararif.me)**.
+
+## 📊 GitHub stats
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ararifdotme&show_icons=true&hide_rank=true&hide_border=true&bg_color=0d1117&title_color=8b5cf6&icon_color=22d3ee&text_color=c9d1d9" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=ararifdotme&show_icons=true&hide_rank=true&hide_border=true&bg_color=ffffff&title_color=7c3aed&icon_color=0891b2&text_color=24292f" alt="GitHub stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ararifdotme&layout=compact&hide_border=true&bg_color=0d1117&title_color=8b5cf6&text_color=c9d1d9" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ararifdotme&layout=compact&hide_border=true&bg_color=ffffff&title_color=7c3aed&text_color=24292f" alt="Top languages" />
+  </picture>
+  <br />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ararifdotme&hide_border=true&background=0d1117&ring=8b5cf6&fire=22d3ee&currStreakLabel=8b5cf6&stroke=30363d&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=c9d1d9&dates=8b949e" />
+    <img src="https://streak-stats.demolab.com?user=ararifdotme&hide_border=true&background=ffffff&ring=7c3aed&fire=0891b2&currStreakLabel=7c3aed" alt="GitHub streak" />
+  </picture>
+</div>
+
+## 🎓 Education & achievements
+
+- **Diploma in Engineering, Computer Technology**: Sherpur Polytechnic Institute (2018)
+- **Laravel Certified Developer** (2023)
+- **Skills Competition 2017**: 3rd place for smart-home IoT devices
+- **Skills Competition 2016**: 2nd place for a school management web app
+
+---
+
+<div align="center">
+
+**This repository is also my portfolio, [ArifOS](https://ararif.me).** It's a glass, OS-style site built with Next.js.<br />
+Developer guide: [English](docs/DEVELOPMENT.md) · [বাংলা](docs/DEVELOPMENT.bn.md)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,100:8b5cf6&height=110&section=footer" alt="" width="100%" />
+
+</div>
