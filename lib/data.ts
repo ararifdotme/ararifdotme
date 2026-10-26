@@ -188,7 +188,7 @@ export const projects: Project[] = [
       en: "A Bengali 3D action game that runs in the browser.",
       bn: "ব্রাউজারে খেলা যায় এমন একটি বাংলা থ্রিডি অ্যাকশন গেম।",
     },
-    repo: gh("mission-kamaria"),
+    // Repo is private until after the election; restore: repo: gh("mission-kamaria"),
     live: "https://mission-kamaria.ararif.me/",
     featured: true,
     year: "2026",

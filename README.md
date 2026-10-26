@@ -97,7 +97,7 @@ React and Node.js in production, mostly remote.
 
 | Project | What it is | Links |
 | --- | --- | --- |
-| **Mission Kamaria** | A Bengali 3D action game that runs in the browser. | [Play](https://mission-kamaria.ararif.me/) · [Code](https://github.com/ararifdotme/mission-kamaria) |
+| **Mission Kamaria** | A Bengali 3D action game that runs in the browser. | [Play](https://mission-kamaria.ararif.me/) |
 | **Keep Me Focus** | Browser extension that blocks distracting sites, sets time limits and hides YouTube Shorts. | [Chrome](https://chromewebstore.google.com/detail/keep-me-focus/oaoilegeflbpmjmogdelkfpmacfhgbpg) · [Firefox](https://addons.mozilla.org/addon/keep-me-focus/) · [Code](https://github.com/ararifdotme/keep-me-focus) |
 | **Bevy Design** | Shopify page builder, 4.7★ from 10,000+ merchants (at Bevy Commerce). | [Shopify App Store](https://apps.shopify.com/aiva-labs) |
 | **Stylish Cost Calculator** | WordPress plugin for cost-estimate forms (at Designful). | [Website](https://stylishcostcalculator.com/) |
