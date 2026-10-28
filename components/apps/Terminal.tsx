@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 import { commands, complete } from "@/lib/terminal";
 import { t } from "@/lib/i18n";
 import { usePrefs } from "@/lib/store";
+import { track } from "@/lib/analytics";
 
 type Block = { id: number; cmd?: string; out: ReactNode; error?: boolean };
 let blockId = 0;
@@ -41,6 +42,8 @@ export default function Terminal() {
     setHIdx(-1);
     const [name, ...args] = cmdline.split(/\s+/);
     const cmd = commands[name.toLowerCase()];
+    // Command name only; arguments may contain anything the visitor typed.
+    track("terminal_command", { command: cmd ? name.toLowerCase() : "unknown" });
     let cleared = false;
     const out = cmd ? (
       cmd.run(args, { clear: () => (cleared = true), history: nextHistory })

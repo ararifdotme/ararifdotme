@@ -4,6 +4,7 @@ import { useState } from "react";
 import { contact } from "@/lib/data";
 import { t } from "@/lib/i18n";
 import { usePrefs } from "@/lib/store";
+import { track } from "@/lib/analytics";
 import { ContactIcon, GithubIcon, LinkedinIcon, WhatsappIcon } from "../os/Icons";
 
 export default function Contact() {
@@ -68,6 +69,7 @@ export default function Contact() {
         className="mt-5 space-y-2.5"
         onSubmit={(e) => {
           e.preventDefault();
+          track("contact_message", { via: "email" });
           window.location.href = `mailto:${contact.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
         }}
       >
@@ -93,7 +95,10 @@ export default function Contact() {
           <button
             type="button"
             disabled={!msg.trim()}
-            onClick={() => window.open(`${contact.whatsapp}?text=${encodeURIComponent(body)}`, "_blank", "noopener")}
+            onClick={() => {
+              track("contact_message", { via: "whatsapp" });
+              window.open(`${contact.whatsapp}?text=${encodeURIComponent(body)}`, "_blank", "noopener");
+            }}
             className="rounded-full bg-[#25d366] px-5 py-2 text-sm font-medium text-white hover:brightness-110 disabled:opacity-40"
           >
             {t("sendWa", lang)}

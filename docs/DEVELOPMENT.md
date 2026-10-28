@@ -92,6 +92,23 @@ Text fields take both languages as `{ en: "...", bn: "..." }`. UI labels live in
 To add a new app window, create a component in `components/apps/`, add its id to `AppId` and `APP_IDS` in
 `lib/store.ts`, register it in `components/os/registry.tsx`, and give it a tile color in `components/os/Icons.tsx`.
 
+## Analytics
+
+Google Analytics 4 loads only when `NEXT_PUBLIC_GA_ID` (e.g. `G-XXXXXXXXXX`) is set at build time.
+Add it in Vercel → Project → Settings → Environment Variables and redeploy. Leave it unset to disable analytics.
+
+Custom events (see `lib/analytics.ts`):
+
+| Event | Parameters | Fired when |
+| --- | --- | --- |
+| `app_open` | `app` | a window or mobile app is opened (not the windows opened automatically on load) |
+| `link_click` | `link_type`, `link_url`, `project` | any link is clicked: email, phone, whatsapp, linkedin, github, source, live, chrome_store, firefox_addons, certificate, resume, external |
+| `contact_message` | `via` | the quick-message form is sent by email or WhatsApp |
+| `terminal_command` | `command` | a terminal command runs (name only, never arguments) |
+| `pref_change` | `setting`, `value` | language or theme is switched |
+
+To see the parameters in GA reports, register them as custom dimensions (Admin → Custom definitions).
+
 ## Deploy
 
 The site is fully static. Push to GitHub, import the repo on [Vercel](https://vercel.com) and add your

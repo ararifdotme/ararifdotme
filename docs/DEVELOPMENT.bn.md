@@ -93,6 +93,23 @@ lib/
 3. `components/os/registry.tsx`-এ রেজিস্টার করুন।
 4. `components/os/Icons.tsx`-এ তার আইকনের রঙ দিন।
 
+## অ্যানালিটিক্স
+
+Google Analytics 4 লোড হয় শুধু তখনই, যখন build-এর সময় `NEXT_PUBLIC_GA_ID` (যেমন `G-XXXXXXXXXX`) দেওয়া থাকে।
+Vercel → Project → Settings → Environment Variables-এ এটা যোগ করে আবার deploy করুন। না দিলে অ্যানালিটিক্স বন্ধ থাকে।
+
+Custom ইভেন্টগুলো (`lib/analytics.ts` দেখুন):
+
+| ইভেন্ট | প্যারামিটার | কখন পাঠানো হয় |
+| --- | --- | --- |
+| `app_open` | `app` | কোনো উইন্ডো বা মোবাইল অ্যাপ খোলা হলে (লোডের সময় নিজে থেকে খোলা উইন্ডো বাদে) |
+| `link_click` | `link_type`, `link_url`, `project` | যেকোনো লিংকে ক্লিক হলে: email, phone, whatsapp, linkedin, github, source, live, chrome_store, firefox_addons, certificate, resume, external |
+| `contact_message` | `via` | দ্রুত মেসেজ ফর্ম ইমেইল বা WhatsApp দিয়ে পাঠালে |
+| `terminal_command` | `command` | টার্মিনালে কমান্ড চালালে (শুধু কমান্ডের নাম, বাকি লেখা না) |
+| `pref_change` | `setting`, `value` | ভাষা বা থিম বদলালে |
+
+GA রিপোর্টে প্যারামিটারগুলো দেখতে চাইলে Admin → Custom definitions-এ custom dimension হিসেবে যোগ করুন।
+
 ## ডিপ্লয়
 
 সাইটটা পুরোপুরি স্ট্যাটিক। GitHub-এ push করে [Vercel](https://vercel.com)-এ repo import করুন, তারপর আপনার ডোমেইন যোগ করুন। কোনো environment variable লাগবে না।

@@ -7,6 +7,7 @@ import { profile, projects } from "@/lib/data";
 import { t, num } from "@/lib/i18n";
 import { AppTile } from "./Icons";
 import { APPS } from "./registry";
+import { track } from "@/lib/analytics";
 import Aurora from "./Aurora";
 import { LangToggle, ThemeToggle, useClock } from "./MenuBar";
 
@@ -14,7 +15,11 @@ const DOCK: AppId[] = ["about", "projects", "contact", "terminal"];
 
 export default function MobileShell() {
   const lang = usePrefs((s) => s.lang);
-  const [app, setApp] = useState<AppId | null>(null);
+  const [app, setAppState] = useState<AppId | null>(null);
+  const setApp = (id: AppId | null) => {
+    if (id) track("app_open", { app: id });
+    setAppState(id);
+  };
   const now = useClock();
 
   const time = now

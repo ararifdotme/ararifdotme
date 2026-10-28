@@ -3,6 +3,7 @@
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import type { Lang } from "./data";
+import { track } from "./analytics";
 
 export type AppId = "about" | "projects" | "experience" | "skills" | "contact" | "terminal";
 export type Theme = "dark" | "light";
@@ -32,7 +33,8 @@ type WindowStore = {
   wins: Partial<Record<AppId, WinState>>;
   topZ: number;
   focused: AppId | null;
-  open: (id: AppId) => void;
+  /** `silent` skips analytics, for windows opened automatically on load. */
+  open: (id: AppId, opts?: { silent?: boolean }) => void;
   close: (id: AppId) => void;
   focus: (id: AppId) => void;
   minimize: (id: AppId) => void;
@@ -47,7 +49,8 @@ export const useWindows = create<WindowStore>((set, get) => ({
   wins: {},
   topZ: 10,
   focused: null,
-  open: (id) => {
+  open: (id, opts) => {
+    if (!opts?.silent) track("app_open", { app: id });
     const { wins, topZ } = get();
     const existing = wins[id];
     const z = topZ + 1;
@@ -136,8 +139,14 @@ export const usePrefs = create<PrefStore>()(
     (set) => ({
       lang: "en",
       theme: "light",
-      setLang: (lang) => set({ lang }),
-      setTheme: (theme) => set({ theme }),
+      setLang: (lang) => {
+        track("pref_change", { setting: "lang", value: lang });
+        set({ lang });
+      },
+      setTheme: (theme) => {
+        track("pref_change", { setting: "theme", value: theme });
+        set({ theme });
+      },
     }),
     {
       name: "arifos-prefs",

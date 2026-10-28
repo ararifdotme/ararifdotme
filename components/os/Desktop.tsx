@@ -21,8 +21,8 @@ export default function Desktop() {
   useEffect(() => {
     const { wins } = useWindows.getState();
     if (Object.keys(wins).length === 0) {
-      open("terminal");
-      open("about");
+      open("terminal", { silent: true });
+      open("about", { silent: true });
     }
   }, [open]);
 
