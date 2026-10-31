@@ -8,8 +8,8 @@ export const profile = {
   avatar: "https://avatars.githubusercontent.com/u/48169386?v=4",
   careerStart: "2019-03-01",
   summary: {
-    en: "Full-stack developer building with Node.js, Next.js, React and TypeScript. At Bevy Commerce I build Shopify apps with Remix (our Bevy Design app is rated 4.7★ by 10,000+ merchants), and I shipped LixSMS, a production Next.js SaaS. 7+ years in production overall, with deep PHP/Laravel experience (Laravel Certified). I deploy on Vercel and Linode and work remotely.",
-    bn: "আমি ফুল-স্ট্যাক ডেভেলপার, কাজ করি Node.js, Next.js, React আর TypeScript দিয়ে। Bevy Commerce-এ Remix দিয়ে Shopify অ্যাপ বানাই (আমাদের Bevy Design অ্যাপের রেটিং ৪.৭★, ১০,০০০+ মার্চেন্ট ব্যবহার করে), আর প্রোডাকশনে চলা Next.js SaaS LixSMS বানিয়েছি। সব মিলিয়ে ৭+ বছরের অভিজ্ঞতা, PHP/Laravel-এও গভীর দক্ষতা আছে (Laravel সার্টিফায়েড)। Vercel আর Linode-এ deploy করি, রিমোটে কাজ করি।",
+    en: "Full-stack developer building with Node.js, Next.js, React and TypeScript. At Bevy Commerce I build Shopify apps with Remix (our Bevy Design app is rated 4.7★ by 10,000+ merchants), and I built LixSMS, a production Next.js SaaS, for a client. 7+ years in production overall, with deep PHP/Laravel experience (Laravel Certified). I deploy on Vercel and Linode and work remotely.",
+    bn: "আমি ফুল-স্ট্যাক ডেভেলপার, কাজ করি Node.js, Next.js, React আর TypeScript দিয়ে। Bevy Commerce-এ Remix দিয়ে Shopify অ্যাপ বানাই (আমাদের Bevy Design অ্যাপের রেটিং ৪.৭★, ১০,০০০+ মার্চেন্ট ব্যবহার করে), আর একজন ক্লায়েন্টের জন্য প্রোডাকশনে চলা Next.js SaaS LixSMS বানিয়েছি। সব মিলিয়ে ৭+ বছরের অভিজ্ঞতা, PHP/Laravel-এও গভীর দক্ষতা আছে (Laravel সার্টিফায়েড)। Vercel আর Linode-এ deploy করি, রিমোটে কাজ করি।",
   } as T,
   focus: {
     en: "Next.js · Node.js · React · Shopify Remix · TypeScript · Laravel",
@@ -186,11 +186,11 @@ export const projects: Project[] = [
   {
     slug: "lixsms",
     name: "LixSMS",
-    category: "products",
+    category: "work",
     stack: ["Next.js", "TypeScript", "Prisma", "Redis"],
     desc: {
-      en: "SMS verification platform: buy virtual numbers to receive verification codes, with wallet, orders and renewals, 2FA, English/中文 and USDT payments.",
-      bn: "SMS ভেরিফিকেশন প্ল্যাটফর্ম: ভার্চুয়াল নম্বর কিনে ভেরিফিকেশন কোড রিসিভ করা যায়। ওয়ালেট, অর্ডার আর রিনিউ, 2FA, English/中文 আর USDT পেমেন্ট আছে।",
+      en: "SMS verification platform: buy virtual numbers to receive verification codes, with wallet, orders and renewals, 2FA, English/中文 and USDT payments. Built for a client.",
+      bn: "SMS ভেরিফিকেশন প্ল্যাটফর্ম: ভার্চুয়াল নম্বর কিনে ভেরিফিকেশন কোড রিসিভ করা যায়। ওয়ালেট, অর্ডার আর রিনিউ, 2FA, English/中文 আর USDT পেমেন্ট আছে। একজন ক্লায়েন্টের জন্য বানানো।",
     },
     live: "https://lixsms.com",
     featured: true,
