@@ -45,7 +45,7 @@ const neofetch = () => {
         <p><A>Host</A>: {profile.location.en}</p>
         <p><A>Uptime</A>: {Math.floor(months / 12)} years, {months % 12} months</p>
         <p><A>Packages</A>: {projects.length} (github), {skills.length} (skills)</p>
-        <p><A>Shell</A>: laravel-zsh 11.x</p>
+        <p><A>Shell</A>: node 24 · next 16</p>
         <p><A>Cert</A>: {certification.title}</p>
         <p><A>Status</A>: <span className="text-ok">available for hire</span></p>
         <p className="mt-1 flex gap-0">

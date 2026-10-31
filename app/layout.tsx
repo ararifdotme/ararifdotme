@@ -8,7 +8,7 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 const bn = Hind_Siliguri({ variable: "--font-bn", subsets: ["bengali", "latin"], weight: ["400", "500", "600", "700"] });
 
 const description =
-  "Arifur Rahman Arif is a Full-Stack Software Developer and Laravel Certified Developer. 7+ years building Laravel, React, Node.js, Shopify and WordPress products.";
+  "Arifur Rahman Arif is a full-stack developer building with Next.js, Node.js, React and Shopify Remix. 7+ years in production, Laravel Certified.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ararif.me"),

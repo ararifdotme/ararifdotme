@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:22d3ee&height=200&section=header&text=Arifur%20Rahman%20Arif&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20Software%20Developer&descSize=18&descAlignY=58" alt="Arifur Rahman Arif — Full-Stack Software Developer" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=620&lines=Laravel+Certified+Developer;7%2B+years+building+for+the+web;Shopify+%C2%B7+WordPress+%C2%B7+React+%C2%B7+Node.js;Open+to+freelance+%26+remote+roles" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=620&lines=Full-stack+developer+%C2%B7+Node.js+%26+Next.js;Building+Shopify+apps+with+Remix;7%2B+years+shipping+for+the+web;Laravel+Certified+Developer;Open+to+freelance+%26+remote+roles" alt="Typing intro" />
 
 <p>
   <a href="https://ararif.me"><img src="https://img.shields.io/badge/Portfolio-ararif.me-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
@@ -16,46 +16,51 @@
 
 ## 👋 About me
 
-I build scalable, high-performance web applications, from Shopify apps used by 10,000+ merchants to
-flight-booking engines and IoT gadgets. Laravel Certified Developer with 7+ years shipping PHP, JavaScript,
-React and Node.js in production, mostly remote.
+Full-stack developer building with **Node.js, Next.js, React and TypeScript**. At Bevy Commerce I build
+**Shopify apps with Remix** (our Bevy Design app is rated 4.7★ by 10,000+ merchants), and I shipped
+[LixSMS](https://lixsms.com), a production Next.js SaaS. 7+ years in production overall, with deep PHP/Laravel
+experience. I deploy on Vercel and Linode and work remotely.
 
 - 📍 Sherpur, Bangladesh · working remotely with teams in Canada
-- 💼 Currently **Back-End Developer at [Bevy Commerce](https://apps.shopify.com/aiva-labs)**
+- 💼 Currently **Back-End Developer at [Bevy Commerce](https://apps.shopify.com/aiva-labs)**, building Shopify apps with Remix
+- ⚡ Working with Next.js & Node.js full-time for the last 3 years
 - 🎓 [Laravel Certified Developer](https://verifier.certificationforlaravel.org/cd0ce63e-b776-4704-8a3e-523081595d5a) (2023)
 - ✅ Open to freelance & remote roles
 
 ## 🛠️ Tech stack
 
 **Languages**<br />
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
+**Frontend & full-stack**<br />
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Remix](https://img.shields.io/badge/Remix-000000?style=flat-square&logo=remix&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
 **Backend**<br />
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat-square&logo=codeigniter&logoColor=white)
 
-**Frontend**<br />
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
-
-**Databases**<br />
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+**Databases & ORM**<br />
+![MySQL](https://img.shields.io/badge/MySQL%20%2F%20MariaDB-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
 **Platforms & cloud**<br />
-![Shopify](https://img.shields.io/badge/Shopify_Apps-7AB55C?style=flat-square&logo=shopify&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
+![Shopify](https://img.shields.io/badge/Shopify_Apps_(Remix)-7AB55C?style=flat-square&logo=shopify&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Linode](https://img.shields.io/badge/Linode-00A95C?style=flat-square)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
 
 **Hardware & IoT**<br />
 ![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
@@ -77,6 +82,7 @@ React and Node.js in production, mostly remote.
 <summary><b>Highlights</b></summary>
 
 **Bevy Commerce**
+- Building Shopify apps with Remix, React and Node.js.
 - Core contributor to [Bevy Design](https://apps.shopify.com/aiva-labs), a Shopify app rated 4.7★ with 10,000+ users.
 - Built Bevy Metafields, Bevy Monitor and Bevy Processor; shipped WordPress plugins and Shopify apps.
 
@@ -97,6 +103,7 @@ React and Node.js in production, mostly remote.
 
 | Project | What it is | Links |
 | --- | --- | --- |
+| **LixSMS** | SMS verification platform built with Next.js, Prisma and Redis: virtual numbers, wallet, orders, 2FA, EN/中文, USDT payments. | [Website](https://lixsms.com) |
 | **Mission Kamaria** | A Bengali 3D action game that runs in the browser. | [Play](https://mission-kamaria.ararif.me/) |
 | **Keep Me Focus** | Browser extension that blocks distracting sites, sets time limits and hides YouTube Shorts. | [Chrome](https://chromewebstore.google.com/detail/keep-me-focus/oaoilegeflbpmjmogdelkfpmacfhgbpg) · [Firefox](https://addons.mozilla.org/addon/keep-me-focus/) · [Code](https://github.com/ararifdotme/keep-me-focus) |
 | **Bevy Design** | Shopify page builder, 4.7★ from 10,000+ merchants (at Bevy Commerce). | [Shopify App Store](https://apps.shopify.com/aiva-labs) |

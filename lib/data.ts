@@ -8,12 +8,12 @@ export const profile = {
   avatar: "https://avatars.githubusercontent.com/u/48169386?v=4",
   careerStart: "2019-03-01",
   summary: {
-    en: "I build scalable, high-performance web applications, from Shopify apps used by 10,000+ merchants to flight-booking engines and IoT gadgets. Laravel Certified Developer with 7+ years shipping PHP, JavaScript, React and Node.js in production, mostly remote.",
-    bn: "আমি স্কেলেবল ও হাই-পারফরম্যান্স ওয়েব অ্যাপ্লিকেশন বানাই: ১০,০০০+ মার্চেন্টের ব্যবহৃত Shopify অ্যাপ থেকে শুরু করে ফ্লাইট-বুকিং ইঞ্জিন আর IoT গ্যাজেট পর্যন্ত। ৭+ বছর ধরে প্রোডাকশনে PHP, JavaScript, React ও Node.js নিয়ে কাজ করছি, বেশিরভাগই রিমোটে। আমি একজন Laravel সার্টিফায়েড ডেভেলপার।",
+    en: "Full-stack developer building with Node.js, Next.js, React and TypeScript. At Bevy Commerce I build Shopify apps with Remix (our Bevy Design app is rated 4.7★ by 10,000+ merchants), and I shipped LixSMS, a production Next.js SaaS. 7+ years in production overall, with deep PHP/Laravel experience (Laravel Certified). I deploy on Vercel and Linode and work remotely.",
+    bn: "আমি ফুল-স্ট্যাক ডেভেলপার, কাজ করি Node.js, Next.js, React আর TypeScript দিয়ে। Bevy Commerce-এ Remix দিয়ে Shopify অ্যাপ বানাই (আমাদের Bevy Design অ্যাপের রেটিং ৪.৭★, ১০,০০০+ মার্চেন্ট ব্যবহার করে), আর প্রোডাকশনে চলা Next.js SaaS LixSMS বানিয়েছি। সব মিলিয়ে ৭+ বছরের অভিজ্ঞতা, PHP/Laravel-এও গভীর দক্ষতা আছে (Laravel সার্টিফায়েড)। Vercel আর Linode-এ deploy করি, রিমোটে কাজ করি।",
   } as T,
   focus: {
-    en: "Laravel · React · Node · Shopify · WordPress · APIs · IoT",
-    bn: "Laravel · React · Node · Shopify · WordPress · API · IoT",
+    en: "Next.js · Node.js · React · Shopify Remix · TypeScript · Laravel",
+    bn: "Next.js · Node.js · React · Shopify Remix · TypeScript · Laravel",
   } as T,
 };
 
@@ -53,8 +53,12 @@ export const experience: Job[] = [
     from: "05/2022",
     to: null,
     remote: true,
-    tags: ["Shopify", "Laravel", "WordPress", "Node"],
+    tags: ["Shopify", "Remix", "React", "Node.js", "Laravel"],
     points: [
+      {
+        en: "Building Shopify apps with Remix, React and Node.js.",
+        bn: "Remix, React আর Node.js দিয়ে Shopify অ্যাপ বানাচ্ছি।",
+      },
       {
         en: "Core contributor to Bevy Design, a Shopify app rated 4.7★ with 10,000+ users.",
         bn: "Bevy Design-এর কোর কন্ট্রিবিউটর: Shopify-তে ৪.৭★ রেটিং, ১০,০০০+ ইউজার।",
@@ -179,6 +183,19 @@ export type Project = {
 const gh = (r: string) => `https://github.com/ararifdotme/${r}`;
 
 export const projects: Project[] = [
+  {
+    slug: "lixsms",
+    name: "LixSMS",
+    category: "products",
+    stack: ["Next.js", "TypeScript", "Prisma", "Redis"],
+    desc: {
+      en: "SMS verification platform: buy virtual numbers to receive verification codes, with wallet, orders and renewals, 2FA, English/中文 and USDT payments.",
+      bn: "SMS ভেরিফিকেশন প্ল্যাটফর্ম: ভার্চুয়াল নম্বর কিনে ভেরিফিকেশন কোড রিসিভ করা যায়। ওয়ালেট, অর্ডার আর রিনিউ, 2FA, English/中文 আর USDT পেমেন্ট আছে।",
+    },
+    live: "https://lixsms.com",
+    featured: true,
+    year: "2026",
+  },
   {
     slug: "mission-kamaria",
     name: "Mission Kamaria",
@@ -341,22 +358,27 @@ export type Skill = { name: string; group: SkillGroup; level: number; since: num
 export type SkillGroup = "backend" | "frontend" | "data" | "platforms" | "apis" | "hardware";
 
 export const skills: Skill[] = [
-  { name: "php", group: "backend", level: 96, since: 2016 },
-  { name: "laravel", group: "backend", level: 95, since: 2018 },
-  { name: "node", group: "backend", level: 85, since: 2019 },
-  { name: "express", group: "backend", level: 80, since: 2019 },
+  { name: "node", group: "backend", level: 92, since: 2019 },
+  { name: "express", group: "backend", level: 85, since: 2019 },
+  { name: "php", group: "backend", level: 90, since: 2016 },
+  { name: "laravel", group: "backend", level: 90, since: 2018 },
   { name: "codeigniter", group: "backend", level: 70, since: 2018 },
-  { name: "javascript", group: "frontend", level: 92, since: 2016 },
-  { name: "typescript", group: "frontend", level: 84, since: 2022 },
-  { name: "react", group: "frontend", level: 86, since: 2020 },
-  { name: "nextjs", group: "frontend", level: 78, since: 2023 },
-  { name: "tailwindcss", group: "frontend", level: 85, since: 2021 },
-  { name: "jquery", group: "frontend", level: 88, since: 2016 },
+  { name: "nextjs", group: "frontend", level: 92, since: 2023 },
+  { name: "react", group: "frontend", level: 91, since: 2020 },
+  { name: "typescript", group: "frontend", level: 90, since: 2022 },
+  { name: "javascript", group: "frontend", level: 93, since: 2016 },
+  { name: "shopify-remix", group: "frontend", level: 86, since: 2025 },
+  { name: "tailwindcss", group: "frontend", level: 88, since: 2021 },
+  { name: "jquery", group: "frontend", level: 80, since: 2016 },
   { name: "mysql", group: "data", level: 90, since: 2016 },
+  { name: "prisma", group: "data", level: 86, since: 2024 },
+  { name: "redis", group: "data", level: 78, since: 2024 },
   { name: "mongodb", group: "data", level: 72, since: 2020 },
-  { name: "shopify-apps", group: "platforms", level: 90, since: 2022 },
-  { name: "wordpress", group: "platforms", level: 90, since: 2018 },
-  { name: "linode/do", group: "platforms", level: 75, since: 2019 },
+  { name: "shopify-apps", group: "platforms", level: 92, since: 2022 },
+  { name: "vercel", group: "platforms", level: 88, since: 2023 },
+  { name: "linode", group: "platforms", level: 82, since: 2019 },
+  { name: "digitalocean", group: "platforms", level: 75, since: 2019 },
+  { name: "wordpress", group: "platforms", level: 85, since: 2018 },
   { name: "sabre/amadeus", group: "apis", level: 82, since: 2020 },
   { name: "stripe/paypal", group: "apis", level: 85, since: 2019 },
   { name: "twilio/plivo", group: "apis", level: 86, since: 2021 },
