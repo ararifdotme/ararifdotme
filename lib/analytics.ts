@@ -35,6 +35,7 @@ export function describeLink(href: string): Params | null {
   if (url.hostname.endsWith("linkedin.com")) return { link_type: "linkedin", ...base };
   if (url.hostname === "chromewebstore.google.com") return { link_type: "chrome_store", ...base };
   if (url.hostname === "addons.mozilla.org") return { link_type: "firefox_addons", ...base };
+  if (url.hostname === "www.npmjs.com") return { link_type: "npm", ...base };
   if (url.hostname === "verifier.certificationforlaravel.org") return { link_type: "certificate", ...base };
   if (url.hostname === "github.com") return { link_type: project ? "source" : "github", ...base };
   if (project) return { link_type: "live", ...base };

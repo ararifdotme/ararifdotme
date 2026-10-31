@@ -102,8 +102,8 @@ React and Node.js in production, mostly remote.
 | **Bevy Design** | Shopify page builder, 4.7★ from 10,000+ merchants (at Bevy Commerce). | [Shopify App Store](https://apps.shopify.com/aiva-labs) |
 | **Stylish Cost Calculator** | WordPress plugin for cost-estimate forms (at Designful). | [Website](https://stylishcostcalculator.com/) |
 | **Stylish Price List** | WordPress plugin for price lists and menus (at Designful). | [Website](https://stylishpricelist.com/) |
-| **electron-cnf** | Lightweight settings & config manager for Electron apps. | [Code](https://github.com/ararifdotme/electron-cnf) |
-| **phone-format-js** | Lightweight phone-number formatting package. | [Code](https://github.com/ararifdotme/phone-format-js) |
+| **electron-cnf** | Lightweight settings & config manager for Electron apps. | [npm](https://www.npmjs.com/package/electron-cnf) · [Code](https://github.com/ararifdotme/electron-cnf) |
+| **phone-format-js** | Lightweight phone-number formatting package. | [npm](https://www.npmjs.com/package/@ararif/phone-format-js) · [Code](https://github.com/ararifdotme/phone-format-js) |
 | **typescript-starter-for-webextensions** | TypeScript starter template for browser extensions. | [Code](https://github.com/ararifdotme/typescript-starter-for-webextensions) |
 
 👉 See everything, interactively, at **[ararif.me](https://ararif.me)**.

@@ -84,7 +84,7 @@ Almost everything you'd want to change lives in **`lib/data.ts`**:
 - `profile`: name, role, summary, location, avatar, career start date
 - `contact`: email, phone, WhatsApp, GitHub, LinkedIn
 - `experience` and `milestones`: jobs, education, awards
-- `projects`: each project takes `repo`, `live` and `stores` (Chrome/Firefox) links, plus `featured` to show it in the Featured folder
+- `projects`: each project takes `repo`, `live` and `stores` (Chrome/Firefox/npm) links, plus `featured` to show it in the Featured folder
 - `skills`: name, group, level (0–100) and the year you started
 
 Text fields take both languages as `{ en: "...", bn: "..." }`. UI labels live in `lib/i18n.ts`.
@@ -102,7 +102,7 @@ Custom events (see `lib/analytics.ts`):
 | Event | Parameters | Fired when |
 | --- | --- | --- |
 | `app_open` | `app` | a window or mobile app is opened (not the windows opened automatically on load) |
-| `link_click` | `link_type`, `link_url`, `project` | any link is clicked: email, phone, whatsapp, linkedin, github, source, live, chrome_store, firefox_addons, certificate, resume, external |
+| `link_click` | `link_type`, `link_url`, `project` | any link is clicked: email, phone, whatsapp, linkedin, github, source, live, chrome_store, firefox_addons, npm, certificate, resume, external |
 | `contact_message` | `via` | the quick-message form is sent by email or WhatsApp |
 | `terminal_command` | `command` | a terminal command runs (name only, never arguments) |
 | `pref_change` | `setting`, `value` | language or theme is switched |

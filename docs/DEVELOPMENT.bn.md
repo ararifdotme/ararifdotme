@@ -82,7 +82,7 @@ lib/
 - `profile`: নাম, পেশা, সারসংক্ষেপ, লোকেশন, ছবি, ক্যারিয়ার শুরুর তারিখ
 - `contact`: ইমেইল, ফোন, WhatsApp, GitHub, LinkedIn
 - `experience` আর `milestones`: চাকরি, পড়াশোনা, পুরস্কার
-- `projects`: প্রতিটা প্রজেক্টে `repo`, `live` আর `stores` (Chrome/Firefox) লিংক দেওয়া যায়। Featured ফোল্ডারে দেখাতে চাইলে `featured` দিন।
+- `projects`: প্রতিটা প্রজেক্টে `repo`, `live` আর `stores` (Chrome/Firefox/npm) লিংক দেওয়া যায়। Featured ফোল্ডারে দেখাতে চাইলে `featured` দিন।
 - `skills`: নাম, গ্রুপ, লেভেল (০–১০০) আর কোন বছর থেকে শুরু
 
 লেখাগুলো দুই ভাষায় এভাবে দিতে হয়: `{ en: "...", bn: "..." }`। বাটন বা লেবেলের লেখা আছে `lib/i18n.ts`-এ।
@@ -103,7 +103,7 @@ Custom ইভেন্টগুলো (`lib/analytics.ts` দেখুন):
 | ইভেন্ট | প্যারামিটার | কখন পাঠানো হয় |
 | --- | --- | --- |
 | `app_open` | `app` | কোনো উইন্ডো বা মোবাইল অ্যাপ খোলা হলে (লোডের সময় নিজে থেকে খোলা উইন্ডো বাদে) |
-| `link_click` | `link_type`, `link_url`, `project` | যেকোনো লিংকে ক্লিক হলে: email, phone, whatsapp, linkedin, github, source, live, chrome_store, firefox_addons, certificate, resume, external |
+| `link_click` | `link_type`, `link_url`, `project` | যেকোনো লিংকে ক্লিক হলে: email, phone, whatsapp, linkedin, github, source, live, chrome_store, firefox_addons, npm, certificate, resume, external |
 | `contact_message` | `via` | দ্রুত মেসেজ ফর্ম ইমেইল বা WhatsApp দিয়ে পাঠালে |
 | `terminal_command` | `command` | টার্মিনালে কমান্ড চালালে (শুধু কমান্ডের নাম, বাকি লেখা না) |
 | `pref_change` | `setting`, `value` | ভাষা বা থিম বদলালে |

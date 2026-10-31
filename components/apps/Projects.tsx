@@ -16,6 +16,12 @@ const COVER: Record<ProjectCategory, string> = {
   lab: "linear-gradient(120deg, #fbbf24, #f97316)",
 };
 
+const STORE_LABEL: Record<NonNullable<Project["stores"]>[number]["name"], string> = {
+  Chrome: "Chrome Web Store",
+  Firefox: "Firefox Add-ons",
+  npm: "npm",
+};
+
 const inFolder = (p: Project, f: Folder) => (f === "all" ? true : f === "featured" ? !!p.featured : p.category === f);
 
 export default function Projects() {
@@ -125,7 +131,7 @@ function Details({ p, onClose }: { p: Project; onClose: () => void }) {
         )}
         {p.stores?.map((s) => (
           <a key={s.name} href={s.url} target="_blank" rel="noreferrer" className="bg-gradient rounded-full px-3.5 py-1.5 text-xs font-medium text-white">
-            {s.name === "Chrome" ? "Chrome Web Store" : "Firefox Add-ons"} ↗
+            {STORE_LABEL[s.name]} ↗
           </a>
         ))}
         <button onClick={onClose} aria-label="Close details" className="grid h-7 w-7 place-items-center rounded-full text-dim hover:bg-glass-hover">

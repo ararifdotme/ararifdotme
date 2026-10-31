@@ -171,7 +171,7 @@ export type Project = {
   desc: T;
   repo?: string;
   live?: string;
-  stores?: { name: "Chrome" | "Firefox"; url: string }[];
+  stores?: { name: "Chrome" | "Firefox" | "npm"; url: string }[];
   featured?: boolean;
   year: string;
 };
@@ -257,6 +257,8 @@ export const projects: Project[] = [
       bn: "Electron অ্যাপের সেটিংস ও কনফিগারেশন ডেটা ম্যানেজ করার হালকা প্যাকেজ।",
     },
     repo: gh("electron-cnf"),
+    stores: [{ name: "npm", url: "https://www.npmjs.com/package/electron-cnf" }],
+    featured: true,
     year: "2025",
   },
   {
@@ -269,6 +271,8 @@ export const projects: Project[] = [
       bn: "ফোন নম্বর ফরম্যাট করার হালকা প্যাকেজ।",
     },
     repo: gh("phone-format-js"),
+    stores: [{ name: "npm", url: "https://www.npmjs.com/package/@ararif/phone-format-js" }],
+    featured: true,
     year: "2024",
   },
   {
