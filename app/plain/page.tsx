@@ -4,7 +4,8 @@ import PrintButton from "./PrintButton";
 import { profile, contact, certification, experience, milestones, projects, skills } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Resume · Arifur Rahman Arif",
+  title: "Resume",
+  alternates: { canonical: "/plain" },
   description: "Plain-text resume of Arifur Rahman Arif, Full-Stack Software Developer.",
 };
 
@@ -24,6 +25,9 @@ export default function Plain() {
 
         <header className="border-b border-stroke pb-6">
           <h1 className="text-gradient text-4xl font-semibold tracking-tight">{profile.name.en}</h1>
+          <p className="text-sm text-mute">
+            <span lang="bn">{profile.name.bn}</span> · A R Arif · ararif
+          </p>
           <p className="mt-1 text-dim">
             {profile.role.en} · {profile.location.en}
           </p>

@@ -9,6 +9,11 @@ import MobileShell from "./MobileShell";
 
 const BOOT_KEY = "arifos-booted";
 
+// Crawlers should see the desktop right away, not the boot animation.
+function isCrawler() {
+  return /bot|crawler|spider|crawling|lighthouse/i.test(navigator.userAgent);
+}
+
 function bootedThisSession() {
   try {
     return sessionStorage.getItem(BOOT_KEY) === "1";
@@ -42,6 +47,6 @@ export default function OS() {
   }, []);
 
   if (!hydrated) return <div className="fixed inset-0 bg-bg" />;
-  if (!bootDone && !reduceMotion && !bootedThisSession()) return <Boot onDone={done} />;
+  if (!bootDone && !reduceMotion && !isCrawler() && !bootedThisSession()) return <Boot onDone={done} />;
   return mobile ? <MobileShell /> : <Desktop />;
 }
