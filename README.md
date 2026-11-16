@@ -22,7 +22,7 @@ Full-stack developer building with **Node.js, Next.js, React and TypeScript**. A
 experience. I deploy on Vercel and Linode and work remotely.
 
 - 📍 Sherpur, Bangladesh · working remotely with teams in Canada
-- 💼 Currently **Back-End Developer at [Bevy Commerce](https://apps.shopify.com/aiva-labs)**, building Shopify apps with Remix
+- 💼 Currently **Software Engineer - L4 at [Bevy Commerce](https://apps.shopify.com/aiva-labs)**, building Shopify apps with Remix
 - ⚡ Working with Next.js & Node.js full-time for the last 3 years
 - 🎓 [Laravel Certified Developer](https://verifier.certificationforlaravel.org/cd0ce63e-b776-4704-8a3e-523081595d5a) (2023)
 - ✅ Open to freelance & remote roles
@@ -73,7 +73,7 @@ experience. I deploy on Vercel and Linode and work remotely.
 
 | Role | Company | Period |
 | --- | --- | --- |
-| **Back-End Developer** (remote) | Bevy Commerce Inc · Toronto, Canada | 05/2022 – present |
+| **Software Engineer - L4** (remote) | Bevy Commerce Inc · Toronto, Canada | 05/2022 – present |
 | **PHP Developer** (part-time, remote) | Designful · Ottawa, Canada | 09/2022 – 06/2024 |
 | **PHP Developer** | Zoo Travel Technology · Dhaka, Bangladesh | 09/2020 – 04/2022 |
 | **PHP Developer** | The Royal Scientific Publication · Dhaka, Bangladesh | 03/2019 – 08/2020 |

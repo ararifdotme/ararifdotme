@@ -49,7 +49,7 @@ export const experience: Job[] = [
     hash: "b3vy0522",
     company: "Bevy Commerce Inc",
     place: { en: "Toronto, Canada", bn: "টরন্টো, কানাডা" },
-    role: { en: "Back-End Developer", bn: "ব্যাক-এন্ড ডেভেলপার" },
+    role: { en: "Software Engineer - L4", bn: "সফটওয়্যার ইঞ্জিনিয়ার - L4" },
     from: "05/2022",
     to: null,
     remote: true,
