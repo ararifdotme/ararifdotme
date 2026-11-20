@@ -197,6 +197,20 @@ export const projects: Project[] = [
     year: "2026",
   },
   {
+    slug: "rust-book-bn",
+    name: "Rust Book বাংলা",
+    category: "products",
+    stack: ["Rust", "mdBook", "Bangla"],
+    desc: {
+      en: "Unofficial Bangla translation of The Rust Programming Language (Brown University interactive edition), open source and under human review.",
+      bn: "The Rust Programming Language বইয়ের (Brown University-র ইন্টারঅ্যাকটিভ সংস্করণ) অনানুষ্ঠানিক বাংলা অনুবাদ। ওপেন সোর্স, পর্যালোচনা চলছে।",
+    },
+    repo: gh("rust-book-bn"),
+    live: "https://rust-bangla.ararif.me/",
+    featured: true,
+    year: "2026",
+  },
+  {
     slug: "mission-kamaria",
     name: "Mission Kamaria",
     category: "products",

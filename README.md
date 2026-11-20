@@ -104,6 +104,7 @@ experience. I deploy on Vercel and Linode and work remotely.
 | Project | What it is | Links |
 | --- | --- | --- |
 | **LixSMS** | SMS verification platform built with Next.js, Prisma and Redis: virtual numbers, wallet, orders, 2FA, EN/中文, USDT payments (client project). | [Website](https://lixsms.com) |
+| **Rust Book বাংলা** | Unofficial Bangla translation of *The Rust Programming Language* (Brown interactive edition). | [Read](https://rust-bangla.ararif.me/) · [Code](https://github.com/ararifdotme/rust-book-bn) |
 | **Mission Kamaria** | A Bengali 3D action game that runs in the browser. | [Play](https://mission-kamaria.ararif.me/) |
 | **Keep Me Focus** | Browser extension that blocks distracting sites, sets time limits and hides YouTube Shorts. | [Chrome](https://chromewebstore.google.com/detail/keep-me-focus/oaoilegeflbpmjmogdelkfpmacfhgbpg) · [Firefox](https://addons.mozilla.org/addon/keep-me-focus/) · [Code](https://github.com/ararifdotme/keep-me-focus) |
 | **Bevy Design** | Shopify page builder, 4.7★ from 10,000+ merchants (at Bevy Commerce). | [Shopify App Store](https://apps.shopify.com/aiva-labs) |
