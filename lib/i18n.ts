@@ -23,6 +23,7 @@ const dict = {
   featured: { en: "Featured", bn: "সেরা কাজ" },
   work: { en: "Client work", bn: "প্রফেশনাল কাজ" },
   products: { en: "Products", bn: "প্রোডাক্ট" },
+  books: { en: "Books", bn: "বই" },
   packages: { en: "Packages", bn: "প্যাকেজ" },
   lab: { en: "Lab", bn: "ল্যাব" },
   source: { en: "Source", bn: "সোর্স" },

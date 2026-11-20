@@ -165,7 +165,7 @@ export const milestones = [
   },
 ];
 
-export type ProjectCategory = "work" | "products" | "packages" | "lab";
+export type ProjectCategory = "work" | "products" | "books" | "packages" | "lab";
 
 export type Project = {
   slug: string;
@@ -199,7 +199,7 @@ export const projects: Project[] = [
   {
     slug: "rust-book-bn",
     name: "Rust Book বাংলা",
-    category: "products",
+    category: "books",
     stack: ["Rust", "mdBook", "Bangla"],
     desc: {
       en: "Unofficial Bangla translation of The Rust Programming Language (Brown University interactive edition), open source and under human review.",

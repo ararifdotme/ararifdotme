@@ -7,11 +7,12 @@ import { t, num } from "@/lib/i18n";
 import { usePrefs } from "@/lib/store";
 
 type Folder = "all" | "featured" | ProjectCategory;
-const FOLDERS: Folder[] = ["featured", "all", "work", "products", "packages", "lab"];
+const FOLDERS: Folder[] = ["featured", "all", "work", "products", "books", "packages", "lab"];
 
 const COVER: Record<ProjectCategory, string> = {
   work: "linear-gradient(120deg, #f472b6, #e11d48)",
   products: "linear-gradient(120deg, #8b5cf6, #22d3ee)",
+  books: "linear-gradient(120deg, #60a5fa, #6366f1)",
   packages: "linear-gradient(120deg, #34d399, #0ea5e9)",
   lab: "linear-gradient(120deg, #fbbf24, #f97316)",
 };
