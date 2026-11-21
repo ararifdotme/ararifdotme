@@ -85,10 +85,10 @@ export default function Skills() {
 
       <ul className="mt-3 space-y-1">
         {visible.map((r) => (
-          <li key={r.name} className="grid grid-cols-[7.5rem_1fr_3rem_3.5rem] items-center gap-3 rounded-xl px-2 py-1.5 text-sm hover:bg-glass-soft">
-            <span className="flex items-center gap-2 truncate font-medium">
+          <li key={r.name} className="grid grid-cols-[7.5rem_1fr_3rem_3.5rem] items-center @md:grid-cols-[10rem_1fr_3rem_3.5rem] gap-3 rounded-xl px-2 py-1.5 text-sm hover:bg-glass-soft">
+            <span className="flex min-w-0 items-center gap-2 font-medium leading-tight" title={r.name}>
               <span className="h-2 w-2 shrink-0 rounded-full" style={{ background: COLOR[r.group] }} />
-              {r.name}
+              <span className="min-w-0 break-words">{r.name}</span>
             </span>
             <span className="h-1.5 overflow-hidden rounded-full bg-glass-hover">
               <span
