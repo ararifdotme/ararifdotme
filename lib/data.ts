@@ -390,6 +390,7 @@ export const skills: Skill[] = [
   { name: "mongodb", group: "data", level: 72, since: 2020 },
   { name: "shopify-apps", group: "platforms", level: 92, since: 2022 },
   { name: "vercel", group: "platforms", level: 88, since: 2023 },
+  { name: "cloudflare-workers", group: "platforms", level: 65, since: 2026 },
   { name: "linode", group: "platforms", level: 82, since: 2019 },
   { name: "digitalocean", group: "platforms", level: 75, since: 2019 },
   { name: "wordpress", group: "platforms", level: 85, since: 2018 },

@@ -76,7 +76,7 @@ export function personJsonLd() {
           name: certification.title,
           url: certification.url,
         },
-        knowsAbout: ["Next.js", "Node.js", "React", "TypeScript", "Shopify Remix", "Shopify apps", "Laravel", "PHP"],
+        knowsAbout: ["Next.js", "Node.js", "React", "TypeScript", "Shopify Remix", "Shopify apps", "Cloudflare Workers", "Laravel", "PHP"],
         sameAs,
       },
       {

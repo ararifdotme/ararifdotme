@@ -58,6 +58,7 @@ experience. I deploy on Vercel and Linode and work remotely.
 **Platforms & cloud**<br />
 ![Shopify](https://img.shields.io/badge/Shopify_Apps_(Remix)-7AB55C?style=flat-square&logo=shopify&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white)
 ![Linode](https://img.shields.io/badge/Linode-00A95C?style=flat-square)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?style=flat-square&logo=wordpress&logoColor=white)
